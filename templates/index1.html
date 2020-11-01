@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Heart Disease Prediction System</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel="stylesheet" href="{{url_for('static',filename = 'main1.css')}}">
+ 
+</head>
+<body>
+ 
+<!-- Header Section -->
+ 
+<header id="header">
+  <div class="main_nav">
+    <div class="container">
+      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#header">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#user_dashboard">User Dashboard</a></li>
+          <li><a class="smoothscroll" href="#prediction_sys">Prediction System</a></li>
+          <li><a class="smoothscroll" href="#login">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="title">
+    <div><i class="fa fa-code" aria-hidden="true"></i></div>
+    <div class="smallsep heading"></div>
+    <h1 class="heading">Heart Disease Prediction System</h1>
+    <h2 class="heading"></h2>
+    <a class="smoothscroll" href="#about">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    </a> </div>
+  <a class="smoothscroll" href="#about">
+  <div class="scroll-down"></div>
+  </a> </header>
+  
+<!-- About Section -->  
+  
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <h1>About</h1>
+      <div class="block"></div>
+      <p></p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3><i class="fa fa-cog" aria-hidden="true"></i>Our Process</h3>
+        <p>After considering the basic infos like bp,bmi,sugar level and average pulse rate we the user submits the various health related symptoms.</p>
+      </div>
+      <div class="six columns">
+        <h3><i class="fa fa-pencil-square" aria-hidden="true"></i>Our Approach</h3>
+        <p>A large data-set is prepared which has been built with the user symptoms and the respective predictions.After taking the data from user it gives us the disease prediction results.</p>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h3><i class="fa fa-bullseye" aria-hidden="true"></i>Prediction</h3>
+          <p>The prediction results not only provides the disease prediction but also gives the information regarding the various related complications to predict the degree of danger alert.</p>
+        </div>
+        <div class="six columns">
+          <h3><i class="fa fa-fighter-jet" aria-hidden="true"></i>Our Goal</h3>
+          <p>Our goal is to provide prediction system for heart disease </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- prediction_sys Section -->  
+ 
+<section id="prediction_sys">
+  <div class="container">
+    <h1>Prediction System</h1>
+    <div class="block"></div>
+    <div class="row">
+      <div class="one-third column">
+        <h3>Design</h3>
+        <p>Our system takes user inputs in the user dashboard section and then the final prediction results are given.</p>
+      </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="user_dashboard">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="cardholder">
+        <div class="card">
+          <a href={{url_for('prediction')}}> <img src="http://cdn.onlinewebfonts.com/svg/img_245789.png" /></a>
+      <p class="desc">PREDICT DISEASE</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+</section>
+
+<!-- login Section -->  
+ 
+<section id="login">
+  <div class="container">
+    <h1>Login</h1>
+    <div class="block"></div>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleRecipientInput">Name</label>
+          <input class="u-full-width" type="text">
+        </div>
+        <div class="six columns">
+          <label for="exampleEmailInput">Contact Email</label>
+          <input class="u-full-width" type="email">
+        </div>
+      </div>
+      <div class="row">
+        <input class="button-primary" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</section>
+ 
+<!-- Footer Section -->  
+ 
+<footer>
+  <div class="container">
+    <div class="nine columns">
+      <p>Copyright @</p>
+    </div>
+    <div class="three columns"> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-twitter-square" aria-hidden="true"></i> </div>
+  </div>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+  <script  type = "text/javsscript" src="{{url_for('static',filename = 'main.js')}}"></script>
+ 
+</body>
+</html>

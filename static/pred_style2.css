@@ -1,0 +1,224 @@
+{
+  margin:0;
+  padding:0;
+  }
+ body{
+       
+    background-image: url(https://cdn.diabetesdaily.com/wp-content/blogs.dir/21/files/2017/10/heart-in-hands.jpg);
+    margin-top:40px;
+    background-position:center;
+   background-size:cover;
+   font-family:sans-serif;
+    }
+
+   .regform{
+    width:800px;
+    background-color:rgb(0,0,0,0.6);
+    margin:auto;
+    color:#FFFFFF;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px ;
+    }  
+  .main{
+      background-color:rgb(0,0,0,0.5);
+      width:800px;
+      margin:auto;}
+  
+  form{
+      padding:10px;
+   
+  } 
+  #name{
+       width:100%;
+    height:100px;
+    
+    }  
+  .name{
+            margin-left:25px;
+   margin-top:30px;
+   width: 125px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+          }
+.gen{
+       left: 200px;
+       position: relative;
+       color:#FFFFFF;
+       vertical-align: middle;
+}
+.hcp{
+       left: 200px;
+       top:5px;
+       position: relative;
+       color:#FFFFFF;
+       vertical-align: middle;
+}
+.gender{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       } 
+.Chestpain{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }  
+.major-vessels{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       } 
+.thal{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }    
+
+
+.age{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }     
+ .bloodpressure{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }   
+  .chl{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }  
+   .ecg{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }     
+   .sugar{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }
+   .mhr{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }   
+   .eia{
+       position: relative;
+       left:200px;
+       top:5px;
+       line-height: 40px;
+       border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       
+       }                
+  .radio{
+   left: 200px;
+   position: relative;
+   display:inline-block;
+   padding-right:70px;
+   font-size:18px;
+   margin-left:25px;
+   margin-top:15px;
+   color:white;
+   }
+  .radio input{
+     left: 200px;
+     position: relative;
+     width:20px;
+     height:20px;
+     border-radius:50%;
+     cursor:pointer;
+     outline:none;
+    } 
+    .radio-one{
+     left: 200px;
+     position: relative;
+     width:20px;
+     height:20px;
+     border-radius:50%;
+     cursor:pointer;
+     outline:none;
+    } 
+    .radio-two{
+     left: 200px;
+     position: relative;
+     width:20px;
+     height:20px;
+     border-radius:50%;
+     cursor:pointer;
+     outline:none;
+    } 
+    button{
+     position: relative;
+     left:200px;
+     background-color:#3BAF9F;
+     display:block;
+     margin:0px 0px 0px 0px;
+     text-align:center;
+     border-radius:12px;
+     border:2px solid #366473;
+     padding:14px 110px;
+     outline:none;
+     color:white;
+     cursor:pointer;
+     transition:0.25px;
+    } 
+   button:hover{
+                background-color:#5390F5;
+      } 

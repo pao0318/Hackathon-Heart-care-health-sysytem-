@@ -1,8 +1,7 @@
 # Hackathon-Heart-care-health-sysytem-
 #
 
-This project consists of a ML model in a fully responsive web page that predicts heart disease and correlated complications, a proper graphical analysis along with preventive measures and diet solutions.
-
+This project consists of a ML model in a fully responsive web page that predicts heart disease and correlated complications.
 ## DESCRIPTION
 
 *Development in Health Sector and Disease prediction Models are in high demand.<br>

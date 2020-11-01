@@ -21,6 +21,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
     p = model.predict_proba(final_features)
+    prediction_chances=p[0][1]
     output=None
     if prediction == 0:
         output = "No"
@@ -28,7 +29,7 @@ def predict():
         output = "Yes"
 
 
-    return render_template('predict5.html',  prediction_chances=' Chances of the patient to have a heart disease = {}'.format(p[0][1],2))
+    return render_template('predict5.html', prediction_chances=prediction_chances )
 
 
 if __name__ == "__main__":

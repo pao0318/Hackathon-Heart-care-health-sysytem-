@@ -81,7 +81,7 @@ log=model.fit(X_train,y_train)
 
 # In[15]:
 
-
+np.set_printoptions(precision=5)
 pred=log.predict_proba(X_test)
 
 

@@ -70,8 +70,8 @@ Email : sadeepnanda@gmail.com
 
 3. Saily Samanta
 s-s5678
-Github : [s-s5678](https://github.com/SadeepNanda)
-Email : sadeepnanda@gmail.com
+Github : [s-s5678](https://github.com/s-s5678)
+Email : sailysamanta2000@gmail.com
 
 ## Acknowledgments
 - Kaggle (for dataset)
